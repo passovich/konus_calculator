@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#061864"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@drawable/drawwing_white"
+        android:gravity="center|center_horizontal" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="D =  "
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="d =  "
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="L =  "
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content">
+            <TableRow
+                android:weightSum="1">
+                <TextView
+                    android:id="@+id/textView"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:hint="@string/angle"
+                    android:textColor="@color/angle"
+                    android:textColorHint="@color/angle"/>
+                <EditText
+                    android:id="@+id/a_deg"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:hint="@string/degrees"
+                    android:textColor="@color/angle"
+                    android:textColorHint="@color/angle"
+                    android:inputType="numberDecimal"
+                    android:maxLength="3"/>
+                <EditText
+                    android:id="@+id/a_min"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:hint="@string/min"
+                    android:textColor="@color/angle"
+                    android:textColorHint="@color/angle"
+                    android:inputType="numberDecimal"
+                    android:maxLength="2"/>
+                <EditText
+                    android:id="@+id/a_sec"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:hint="@string/sec"
+                    android:textColor="@color/angle"
+                    android:textColorHint="@color/angle"
+                    android:inputType="numberDecimal"
+                    android:maxLength="2"/>
+            </TableRow><TableRow
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/textView1"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="@string/angleA"
+                android:textColor="@color/angleA"
+                android:textColorHint="@color/angleA"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:id="@+id/A_deg"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="@string/degrees"
+                android:textColor="@color/angleA"
+                android:textColorHint="@color/angleA"
+                android:inputType="numberDecimal"
+                android:maxLength="3"
+                android:enabled="false"/>
+            <EditText
+                android:id="@+id/A_min"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="@string/min"
+                android:textColor="@color/angleA"
+                android:textColorHint="@color/angleA"
+                android:inputType="numberDecimal"
+                android:maxLength="2"
+                android:enabled="false"/>
+            <EditText
+                android:id="@+id/A_sec"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="@string/sec"
+                android:textColor="@color/angleA"
+                android:textColorHint="@color/angleA"
+                android:inputType="numberDecimal"
+                android:maxLength="2"
+                android:enabled="false"/>
+        </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp">
+        <TableRow
+            android:weightSum="1">
+            <Button
+                android:id="@+id/calc_D"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:text="@string/calculate_D_big"
+                android:layout_marginBottom="5dp"
+                android:onClick="onClick"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/calc_d"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:text="@string/calculate_d"
+                android:layout_marginBottom="5dp"
+                android:onClick="onClick"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/calc_L"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:text="@string/calculate_L"
+                android:layout_marginBottom="5dp"
+                android:onClick="onClick"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/calc_angle"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:text="@string/calculate_A_a"
+                android:layout_marginBottom="5dp"
+                android:onClick="onClick"
+                android:textAllCaps="false"/>
+        </TableRow>
+        <TableRow
+            android:weightSum="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exit"
+                android:gravity="center"
+                android:onClick="onClick"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

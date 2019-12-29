@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:stretchColumns="*"
+        android:weightSum="1"
+        android:layout_marginTop="20dp">
+        <TableRow
+            android:weightSum="1">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearLayout">
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="D:"
+                    android:inputType="numberDecimal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:hint="d:"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="L:"
+                    android:inputType="numberDecimal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/button"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:background="@drawable/drawwing_white"
+                android:gravity="bottom"
+                android:text="" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center"
+                android:layout_weight="0.3">
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/calculate"
+                    android:gravity="center" />
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/exit"
+                    android:gravity="center"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginTop="15dp"/>
+
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/angle"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/angle"/>
+    <TextView
+        android:id="@+id/textView1"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/angle"
+        android:textColor="@color/angleA"/>
+
+</LinearLayout>

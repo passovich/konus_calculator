@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Konus</string>
+    <string name="calculate">Calculate</string>
+    <string name="calculate_D_big">Calc. D</string>
+    <string name="calculate_d">Calc. d</string>
+    <string name="calculate_L">Calc. L</string>
+    <string name="calculate_A_a">Calc. a</string>
+    <string name="exit">Exit</string>
+    <string name="L_notZero">L must be above zerro</string>
+    <string name="wrongInput">Wrong input data</string>
+    <string name="angle">Angle a = </string>
+    <string name="angleA">Angle A = </string>
+    <string name="degrees"> deg. </string>
+    <string name="min"> min.</string>
+    <string name="sec"> sec.</string>
+
+    <string name="wrong_L">Wrong L input</string>
+    <string name="wrong_D">Wrong D input</string>
+    <string name="wrong_d">Wrong d input</string>
+    <string name="wrong_A">Wrong angle input</string>
+    <string name="wrong_D_less_d">d must be less then D</string>
+
+
+    <string name="warning_header">Warning</string>
+
+</resources>

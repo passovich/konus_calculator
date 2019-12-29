@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Конус</string>
+    <string name="calculate">Розрахувати</string>
+    <string name="calculate_D_big">Розр. D</string>
+    <string name="calculate_d">Розр. d</string>
+    <string name="calculate_L">Розр. L</string>
+    <string name="calculate_A_a">Розр. а</string>
+    <string name="exit">Вихід</string>
+    <string name="L_notZero">L має бути > 0</string>
+    <string name="wrongInput">Не вірні дані для розрахунку</string>
+    <string name="angle">Кут обробки а = </string>
+    <string name="angleA">Кут A = </string>
+    <string name="degrees"> град. </string>
+    <string name="min"> хв.</string>
+    <string name="sec"> сек.</string>
+    <string name="wrong_L">Помилка вводу L</string>
+    <string name="wrong_D">Помилка вводу D</string>
+    <string name="wrong_d">Помилка вводу d</string>
+    <string name="wrong_A">Помилка вводу кута</string>
+    <string name="wrong_D_less_d">d має бути менше D</string>
+    <string name="warning_header">Увага</string>
+</resources>

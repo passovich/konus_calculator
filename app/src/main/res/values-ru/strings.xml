@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Конус</string>
+    <string name="calculate">Расчитать</string>
+    <string name="calculate_D_big">Расч. D</string>
+    <string name="calculate_d">Расч. d</string>
+    <string name="calculate_L">Расч. L</string>
+    <string name="calculate_A_a">Расч. а</string>
+    <string name="exit">Выход</string>
+    <string name="L_notZero">L должно быть > 0</string>
+    <string name="wrongInput">Неправильные вводные данные</string>
+    <string name="angle">Угол проточки a = </string>
+    <string name="angleA">Угол A = </string>
+    <string name="degrees"> град. </string>
+    <string name="min"> мин.</string>
+    <string name="sec"> сек.</string>
+    <string name="wrong_L">Неправильно задана L</string>
+    <string name="wrong_D">Неправильно задан D</string>
+    <string name="wrong_d">Неправильно задан d</string>
+    <string name="wrong_A">Напрвильно задан угол</string>
+    <string name="wrong_D_less_d">d должно быть меньше D</string>
+    <string name="warning_header">Внимание</string>
+</resources>

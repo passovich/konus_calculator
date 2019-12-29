@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <item
+       android:id="@+id/calculate"
+       android:title="@string/calculate"
+       android:orderInCategory="1"
+       app:showAsAction="never"/>
+    <item
+        android:id="@+id/exit"
+        android:title="@string/exit"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_launcher"
+        app:showAsAction="never"/>
+
+
+</menu>
